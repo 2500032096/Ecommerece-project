@@ -1,0 +1,37 @@
+        <style>
+            .header{
+                display:flex;
+                background-color: blue;
+                color:azure;
+                justify-content: center;
+            }
+            
+            .nav{
+                display:grid;
+                background-color: red;
+                color: azure;
+                justify-content: center;
+                font-weight:bolder;   
+
+            }
+
+            .main{
+
+                background-color: pink;
+                color: white;
+                
+            }
+            
+            .footer{
+                display:flex;
+                background-color: rgb(107, 128, 0);
+                color: rgb(0, 122, 128);
+                position: fixed;
+                justify-content: center;
+                bottom: 0;
+            }
+
+            .main h2{
+                color: blue;
+            }
+        </style>
