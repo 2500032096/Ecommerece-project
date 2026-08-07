@@ -1,128 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>KLECommerce</title>
+    <title>My Ecommerce Application</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body background="images/background.png">
+    <body>
+        <header>
+            <img src="images/logo.png"
+            height="60"
+            width="180">
 
-    <p></p>
+             <input type="text" placeholder="Search here">
+             <input type="button" value="Search">
+             Login|Register|Cart(0)
+        </header>
+        <nav>
+            Mobiles|
+            Electronics|
+            Grocery|
+            Fashion|
+        </nav>
 
-    <table border="1" width="100%" cellpadding="10" cellspacing="0">
-        
-        <tr bgcolor="#0D47A1">
-            <td colspan="4">
-                <table width="100%" border="0">
-                    <tr>
-                        <td width="20%">
-                            <img src="images/logo.png" width="180" height="60" alt="KLECommerce Logo">
-                        </td>
-                        <td width="60%" align="center">
-                            <input type="text" size="45" placeholder="Search Products">
-                            <input type="submit" value="Search">
-                        </td>
-                        <td width="20%" align="center">
-                            <font color="white">
-                                <b>Login</b> | 
-                                <b>Register</b> | 
-                                <b>Cart (0)</b>
-                            </font>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
 
-        <tr bgcolor="#1976D2" align="center">
-            <td colspan="4">
-                <table width="100%" border="0">
-                    <tr align="center">
-                        <td><font color="white"><b>Fashion</b></font></td>
-                        <td><font color="white"><b>Groceries</b></font></td>
-                        <td><font color="white"><b>Electronics</b></font></td>
-                        <td><font color="white"><b>Mobiles</b></font></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+        <main>
 
-        <tr>
-            <td colspan="4" align="center" bgcolor="#FFF8DC">
-                <img src="images/banner.png" width="100%" height="280" alt="Special Offers Banner">
-            </td>
-        </tr>
+            <section>
 
-        <tr bgcolor="#1565C0">
-            <td colspan="4" align="center">
-                <font color="white" size="5">
-                    <b>FEATURED PRODUCTS</b>
-                </font>
-            </td>
-        </tr>
 
-        <tr bgcolor="#FFFFFF">
-            <td align="center">
-                <img src="images/shirt.jpg" width="170" height="170" alt="Men's Shirt"><br>
-                <h3>Men's Shirt</h3>
-                <h2>₹2000</h2>
-                <input type="button" value="Add to Cart">
-            </td>
-            <td align="center">
-                <img src="images/rice.jpg" width="170" height="170" alt="Rice Bag"><br>
-                <h3>Rice Bag</h3>
-                <h2>₹1,299</h2>
-                <input type="button" value="Add to Cart">
-            </td>
-            <td align="center">
-                <img src="images/mobile.jpg" width="170" height="170" alt="Smart Phone"><br>
-                <h3>Smart Phone</h3>
-                <h2>₹1,00,000</h2>
-                <input type="button" value="Add to Cart">
-            </td>
-            <td align="center">
-                <img src="images/images.jpeg" width="170" height="170" alt="Washing Machine"><br>
-                <h3>Washing Machine</h3>
-                <h2>₹45,490</h2>
-                <input type="button" value="Add to Cart">
-            </td>
-        </tr>
+            
+            <img src="images/banner.png"
+            height="500"
+            width="100%">
 
-        <tr bgcolor="#FFF176">
-            <td colspan="4" align="center">
-                <h2>Today's Special Offers</h2>
-                Flat 20% Discount on Fashion Products <br><br>
-                Free Delivery Above ₹2000 <br><br>
-                Buy One Get One on Selected Products <br><br>
-                Extra Cashback on Electronics
-            </td>
-        </tr>
+            </section>
 
-        <tr bgcolor="#E8F5E9">
-            <td align="center">
-                <h3>Easy Returns</h3>
-            </td>
-            <td align="center">
-                <h3>24 × 7 Support</h3>
-            </td>
-            <td align="center">
-                <h3>Secure Payment</h3>
-            </td>
-            <td align="center">
-                <h3>Fast Delivery</h3>
-            </td>
-        </tr>
+            <h2>Featured Products</h2>
 
-        <tr bgcolor="#263238">
-            <td colspan="4" align="center">
-                <font color="white">
-                    <h2>KLECommerce</h2>
-                    Home | Products | About Us | Contact Us | Help
-                    <br><br>
-                    Copyright © 2026 KLECommerce
-                </font>
-            </td>
-        </tr>
 
-    </table>
+            <section class="products">
+            
+                <article>
+                    <img src="images/v.jpg"
+                    height="170"
+                    width="170">
+                    <h4>Men Shirt</h4>
+                    <h3> price:₹3300</h3>
+                    <input type="button" value="Add to Cart">
+                </article>
+                <article>
+                    <img src="images/rice.jpg"
+                    height="170"
+                    width="170">
+                    <h4>Rice Bag</h4>
+                    <h3> price:₹1000</h3>
+                    <input type="button" value="Add to Cart">
+                </article>
+                <article>
+                    <img src="images/images.jpeg"
+                    height="170"
+                    width="170">
+                    <h4>Washing Machine</h4>
+                    <h3> price:₹15000</h3>
+                    <input type="button" value="Add to Cart">
+                </article>
+                <article>
+                    <img src="images/iphone.jpeg"
+                    height="170"
+                    width="170">
+                    <h4>Mobile</h4>
+                    <h3> price:₹150000</h3>
+                    <input type="button" value="Add to Cart">
+                </article>
 
-</body>
+                
+            
+            </section>
+            
+            <section>
+                <h2>Customer Services</h2>
+                <article>Easy Returns</article>
+                <article>24/7 Customer Support</article>
+                <article>Secure Payment</article> 
+                <article>Fast Delivery</article>               
+            </section>
+            
+            <section>
+                Offers
+            </section>
+            
+        </main>
+
+
+        <footer>
+            Copyright 2026
+        </footer>
+    </body>
 </html>

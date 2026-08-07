@@ -1,0 +1,6 @@
+.products {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:300px 300px 300px;
+    border: 1px ;
+}
